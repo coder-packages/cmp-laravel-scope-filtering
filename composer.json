@@ -1,0 +1,22 @@
+{
+  "name": "coder-packages/scope-filtering",
+  "description": "Scope filtering in Laravel",
+  "keywords": ["laravel", "filtering"],
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Manukian",
+      "email": "alikmanukian@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Larapackages\\ScopeFiltering\\": "src/"
+    }
+  }
+}
