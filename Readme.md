@@ -1,6 +1,6 @@
-#Scope filtering in Laravel
+# Scope filtering in Laravel
 
-Add trait into models
+**Add trait into models**
 ```php
 use Larapackages\ScopeFiltering\Traits\Filterable;
 
@@ -9,7 +9,7 @@ class User
 	use Filterable;
 }
 ```
-create a Scope
+**Create a Scope**
 
 ```php
 namespace App\Filters;
@@ -34,7 +34,7 @@ class ContainsScope extends Scope
 }
 ```
 
-use in searches
+**Use in searches**
 ```php
 use App\Filters\ContainsScope;
 
